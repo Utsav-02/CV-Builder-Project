@@ -99,7 +99,7 @@ while True:
 #footer
 section = document.sections[0]
 footer = section.footer
-P = footer.paragraph[0]
+P = footer.paragraphs[0]
 P.text = 'CV generated using Python'
 
 
